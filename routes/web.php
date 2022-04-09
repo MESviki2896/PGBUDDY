@@ -13,5 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/','Mainbuddy@HomeMain');
 Route::get('/','Mainbuddy@index');
-Route::post('/login','Mainbuddy@login');
+
+//Route::post('/login','Mainbuddy@login');
